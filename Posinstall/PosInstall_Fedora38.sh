@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Comandos Básicos de pós instalação do Fedora 38
-
+echo "Comandos Básicos de pós instalação do Fedora 38"
 ## Atualizando o repositório ##
 sudo dnf update -y
 
@@ -18,4 +18,5 @@ sudo dnf install fedora-workstation-repositories -y
 sudo dnf config-manager --set-enabled google-chrome
 sudo dnf install google-chrome-stable -y
 
-#
+##VLC 
+sudo dnf install vlc
